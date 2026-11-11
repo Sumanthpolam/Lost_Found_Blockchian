@@ -1,0 +1,18 @@
+
+# Dependencies
+node_modules/
+frontend/node_modules/
+blockchain/node_modules/
+
+# Build files
+frontend/dist/
+blockchain/artifacts/
+blockchain/cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+npm-debug.log*
